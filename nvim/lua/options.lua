@@ -9,7 +9,6 @@ opt.smartindent = true
 
 -- view 
 opt.number = true
-cmd('colorscheme habamax')
 opt.so = 5 
 cmd ('set noshowmode')
 
