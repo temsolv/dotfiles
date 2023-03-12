@@ -11,4 +11,6 @@ return require('packer').startup(function(use)
 
 	use 'hrsh7th/nvim-cmp'
 	use 'hrsh7th/cmp-nvim-lsp'
+
+	use 'windwp/nvim-autopairs'
 end)
