@@ -3,6 +3,7 @@ local null_ls = require("null-ls")
 
 require("null-ls").setup({
 	sources = {
+		-- code lints
 		null_ls.builtins.formatting.gofmt,
 		null_ls.builtins.formatting.autopep8,
 		null_ls.builtins.formatting.stylua,
