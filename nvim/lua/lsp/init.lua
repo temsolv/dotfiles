@@ -1,2 +1,3 @@
-require('lsp.lsp')
-require('lsp.cmp')
+require('lsp.lsp-config')
+require('lsp.nvim-cmp')
+require('lsp.null-ls')

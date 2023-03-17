@@ -1,4 +1,4 @@
--- init packer
+-- packer
 require('packer_init')
 
 -- options
