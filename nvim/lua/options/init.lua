@@ -1,3 +1,3 @@
-require('options/options')
-require('options/appearance')
-require('options/keymaps')
+require("options/options")
+require("options/appearance")
+require("options/keymaps")
