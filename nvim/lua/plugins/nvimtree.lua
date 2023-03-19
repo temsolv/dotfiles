@@ -8,3 +8,5 @@ require("nvim-tree").setup({
 		number = false,
 	},
 })
+
+vim.keymap.set("n", "<A-f>", ":NvimTreeToggle<CR>", opts)

@@ -7,11 +7,7 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 map("i", "jk", "<esc>", opts)
-map("n", "<A-f>", "<cmd>NvimTreeToggle<cr>", opts)
 map("n", "<leader>n", ":nohlsearch<CR>", opts)
-
-map("n", "<S-l>", ":bnext<CR>", opts)
-map("n", "<S-h>", ":bprevious<CR>", opts)
 
 -- save and quit
 map("n", "<leader>s", ":write<CR>", opts)

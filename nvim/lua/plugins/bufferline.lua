@@ -4,3 +4,6 @@ require("bufferline").setup({
 		show_tab_indicators = true,
 	},
 })
+
+vim.keymap.set("n", "<S-l>", ":bnext<CR>", opts)
+vim.keymap.set("n", "<S-h>", ":bprevious<CR>", opts)
