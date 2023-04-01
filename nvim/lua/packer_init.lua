@@ -14,7 +14,6 @@ return require("packer").startup(function(use)
 	use("nvim-tree/nvim-tree.lua")
 	use("akinsho/bufferline.nvim")
 	use("akinsho/toggleterm.nvim")
-	use("nvim-telescope/telescope.nvim")
 
 	-- core
 	use("neovim/nvim-lspconfig")
@@ -23,8 +22,7 @@ return require("packer").startup(function(use)
 	use("hrsh7th/cmp-nvim-lsp")
 	use("L3MON4D3/LuaSnip")
 
-	use("nvim-lua/plenary.nvim")
-	use("jose-elias-alvarez/null-ls.nvim")
+	use("lukas-reineke/lsp-format.nvim")
 
 	-- edit
 	use("windwp/nvim-autopairs")
