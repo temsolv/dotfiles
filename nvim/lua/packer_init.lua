@@ -6,8 +6,9 @@ return require("packer").startup(function(use)
 	-- view
 	use("nvim-lualine/lualine.nvim")
 	use("nvim-tree/nvim-web-devicons")
+	use("nvim-treesitter/nvim-treesitter")
+	use("Mofiqul/vscode.nvim")
 	use("sainnhe/gruvbox-material")
-	use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
 
 	-- navigation
 	use("nvim-tree/nvim-tree.lua")

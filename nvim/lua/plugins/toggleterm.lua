@@ -1,6 +1,6 @@
 require("toggleterm").setup({
 	open_mapping = [[<c-\>]],
-	direction = "horizontal",
+	direction = "float",
 	close_on_exit = true,
 	on_open = function(term)
 		vim.cmd("startinsert!")
