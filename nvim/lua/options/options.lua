@@ -6,6 +6,8 @@ opt.shiftwidth = 4
 opt.tabstop = 4
 opt.smartindent = true
 
+-- core
+vim.o.relativenumber = true
 opt.number = true
 opt.so = 5
 cmd("set noshowmode")

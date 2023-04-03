@@ -1,16 +1,23 @@
-local map = vim.api.nvim_set_keymap
-local opts = { noremap = true, silent = true }
+function map(mode, lhs, rhs, opts)
+	local opts = { noremap = true, silent = true }
+	vim.api.nvim_set_keymap(mode, lhs, rhs, opts)
+end
 
 -- remap space as leader
-map("", "<Space>", "<Nop>", opts)
+map("", "<Space>", "<Nop>")
 vim.g.mapleader = " "
-vim.g.maplocalleader = " "
 
-map("i", "jk", "<esc>", opts)
-map("n", "<leader>n", ":nohlsearch<CR>", opts)
+map("i", "jk", "<esc>")
+map("n", "<leader>n", ":nohlsearch<CR>")
 
 -- save and quit
-map("n", "<leader>s", ":write<CR>", opts)
-map("n", "<leader>S", ":wall<CR>", opts)
-map("n", "<leader>e", ":bd<CR>", opts)
-map("n", "<leader>E", ":bd!<CR>", opts)
+map("n", "<leader>s", ":write<CR>")
+map("n", "<leader>S", ":wall<CR>")
+map("n", "<leader>e", ":bd<CR>")
+map("n", "<leader>E", ":bd!<CR>")
+
+-- text edit
+map("v", "J", ":m '>+1<CR>gv=gv")
+map("v", "K", ":m '<-2<CR>gv=gv")
+map("v", "<", "<gv")
+map("v", ">", ">gv")
