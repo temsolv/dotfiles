@@ -9,7 +9,7 @@ opt.smartindent = true
 -- core
 vim.o.relativenumber = true
 opt.number = true
-opt.so = 5
+opt.so = 10
 cmd("set noshowmode")
 opt.swapfile = false
 opt.mouse = nil

@@ -7,7 +7,7 @@ return require("packer").startup(function(use)
 	use("nvim-lualine/lualine.nvim")
 	use("nvim-tree/nvim-web-devicons")
 	use("nvim-treesitter/nvim-treesitter")
-	use("EdenEast/nightfox.nvim")
+	use("catppuccin/nvim")
 
 	-- navigation
 	use("nvim-tree/nvim-tree.lua")
@@ -19,8 +19,9 @@ return require("packer").startup(function(use)
 	use("nvim-lua/plenary.nvim")
 	use("neovim/nvim-lspconfig")
 
-	use("ms-jpq/coq.artifacts")
-	use("ms-jpq/coq_nvim")
+	use("hrsh7th/nvim-cmp")
+	use("hrsh7th/cmp-nvim-lsp")
+	use("L3MON4D3/LuaSnip")
 
 	use("lukas-reineke/lsp-format.nvim")
 
