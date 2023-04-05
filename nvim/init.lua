@@ -1,11 +1,11 @@
 -- packer
-require("packer_init")
+require('packer_init')
 
 -- options
-require("options/init")
+require('options/init')
 
 -- lsp
-require("lsp/init")
+require('lsp/init')
 
 -- plugins
-require("plugins/init")
+require('plugins/init')

@@ -1,12 +1,11 @@
-require("nvim-tree").setup({
+require('nvim-tree').setup({
 	actions = {
 		open_file = {
 			quit_on_open = true,
 		},
 	},
-	view = {
-		number = false,
-	},
+	view = { number = false },
 })
 
-vim.keymap.set("n", "<A-f>", ":NvimTreeToggle<CR>", opts)
+-- maps
+vim.keymap.set('n', '<A-f>', ':NvimTreeToggle<CR>', opts)
