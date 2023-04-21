@@ -16,8 +16,10 @@ o.relativenumber = true
 o.scrolloff = 5
 
 o.mouse = nil
-o.cmdheight = 0
+o.cmdheight = 1
 o.signcolumn = "no"
 o.fillchars = "eob: "
 
 cmd("autocmd BufEnter * set fo-=c fo-=r fo-=o")
+cmd("set lazyredraw")
+cmd("set t_ut=")
