@@ -4,7 +4,13 @@ require('nvim-tree').setup({
 			quit_on_open = true,
 		},
 	},
-	view = { number = false },
+	view = {
+		number = false,
+		width = 25,
+	},
+	renderer = {
+		root_folder_label = false,
+	},
 })
 
 -- maps

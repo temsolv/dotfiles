@@ -1,10 +1,20 @@
-require('bufferline').setup({
+require("bufferline").setup({
 	options = {
-		diagnostics = 'nvim_lsp',
-		show_tab_indicators = true,
+		separator_style = "",
+		-- lsp diagnostics
+		diagnostics = "nvim_lsp",
+		diagnostics_indicator = function(count, level)
+			local icon = level:match("error") and "" or ""
+			return icon .. count
+		end,
+		-- close icon
+		hover = {
+			enabled = true,
+			reveal = { "close" },
+		},
 	},
 })
 
--- maps
-vim.keymap.set('n', '<S-l>', ':bnext<CR>', opts)
-vim.keymap.set('n', '<S-h>', ':bprevious<CR>', opts)
+-- keymaps
+vim.keymap.set("n", "<S-l>", ":bnext<CR>")
+vim.keymap.set("n", "<S-h>", ":bprevious<CR>")
