@@ -16,12 +16,8 @@ o.relativenumber = true
 o.scrolloff = 5
 
 o.mouse = nil
-o.cmdheight = 1
+o.cmdheight = 0
 o.signcolumn = "no"
 o.fillchars = "eob: "
 
-cmd("set t_ut=")
-cmd("set lazyredraw")
-cmd("hi Normal ctermfg=12 ctermfg=NONE cterm=NONE")
 cmd("autocmd BufEnter * set fo-=c fo-=r fo-=o")
-cmd("set noshowcmd")
