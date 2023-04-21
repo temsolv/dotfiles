@@ -3,12 +3,10 @@ local null_ls = require("null-ls")
 
 require("null-ls").setup({
 	sources = {
-		-- formatters setup
 		null_ls.builtins.formatting.gofmt,
 		null_ls.builtins.formatting.autopep8,
 		null_ls.builtins.formatting.stylua,
 	},
-	-- format on save
 	on_attach = function(client, bufnr)
 		if client.supports_method("textDocument/formatting") then
 			vim.api.nvim_clear_autocmds({ group = augroup, buffer = bufnr })

@@ -1,4 +1,4 @@
-require('nvim-tree').setup({
+require("nvim-tree").setup({
 	actions = {
 		open_file = {
 			quit_on_open = true,
@@ -13,5 +13,5 @@ require('nvim-tree').setup({
 	},
 })
 
--- maps
-vim.keymap.set('n', '<A-f>', ':NvimTreeToggle<CR>', opts)
+local map = vim.keymap.set
+map("n", "<A-f>", ":NvimTreeToggle<CR>", { silent = true })

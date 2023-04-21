@@ -1,4 +1,6 @@
-local cmd = vim.cmd -- clear basic cursorline highlighting
+local cmd = vim.cmd
+
+-- clear cursorline highlighting
 cmd([[
 set cursorline
 hi clear CursorLine
@@ -7,7 +9,7 @@ augroup CLClear
 augroup END
 ]])
 
--- set custom highlighting of cursorline
+-- set custom cursorline highlighting
 cmd([[
 hi CursorLineNR cterm=bold
 augroup CLNRSet

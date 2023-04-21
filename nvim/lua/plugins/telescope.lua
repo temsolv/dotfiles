@@ -1,14 +1,14 @@
-local actions = require('telescope.actions')
-local builtin = require('telescope.builtin')
+local actions = require("telescope.actions")
+local builtin = require("telescope.builtin")
 
-require('telescope').setup({
+require("telescope").setup({
 	defaults = {
-		initial_mode = 'insert',
+		initial_mode = "insert",
 		mappings = {
-			i = { ['<esc>'] = actions.close },
+			i = { ["tq"] = actions.close },
 		},
 	},
 })
 
--- maps
-vim.keymap.set('n', 'ts', builtin.find_files, {})
+local map = vim.keymap.set
+map("n", "ts", builtin.find_files)

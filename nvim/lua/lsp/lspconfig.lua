@@ -1,7 +1,6 @@
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
 local lspconfig = require("lspconfig")
 
--- lsp servers setup
 lspconfig.gopls.setup({
 	capabilities = capabilities,
 })

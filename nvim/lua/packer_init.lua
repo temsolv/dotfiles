@@ -10,7 +10,7 @@ return require("packer").startup(function(use)
 	use("nvim-lualine/lualine.nvim")
 	use("sainnhe/gruvbox-material")
 
-	-- moving
+	-- movement
 	use("nvim-telescope/telescope.nvim")
 	use("nvim-tree/nvim-tree.lua")
 	use("akinsho/toggleterm.nvim")
@@ -22,12 +22,10 @@ return require("packer").startup(function(use)
 	use("neovim/nvim-lspconfig")
 	use("nvim-lua/plenary.nvim")
 
-	-- snippets
 	use("rafamadriz/friendly-snippets")
 	use("saadparwaiz1/cmp_luasnip")
 	use("L3MON4D3/LuaSnip")
 
-	-- completion
 	use("jose-elias-alvarez/null-ls.nvim")
 	use("hrsh7th/cmp-nvim-lsp")
 	use("hrsh7th/nvim-cmp")
