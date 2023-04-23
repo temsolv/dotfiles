@@ -19,4 +19,4 @@ bindkey '^I' autosuggest-accept
 # aliases
 alias gs="git status"
 alias ga="git add ."
-alias s="clear"
+alias c="clear"

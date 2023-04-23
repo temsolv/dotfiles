@@ -10,5 +10,4 @@ require("telescope").setup({
 	},
 })
 
-local map = vim.keymap.set
-map("n", "ts", builtin.find_files)
+vim.keymap.set("n", "ts", builtin.find_files)

@@ -12,3 +12,6 @@ require("bufferline").setup({
 		},
 	},
 })
+
+map("n", "<S-l>", ":bn<CR>")
+map("n", "<S-h>", ":bp<CR>")

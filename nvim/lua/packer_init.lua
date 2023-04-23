@@ -8,7 +8,7 @@ return require("packer").startup(function(use)
 	use("nvim-treesitter/nvim-treesitter")
 	use("nvim-tree/nvim-web-devicons")
 	use("nvim-lualine/lualine.nvim")
-	use("sainnhe/gruvbox-material")
+	use("aktersnurra/no-clown-fiesta.nvim")
 
 	-- movement
 	use("nvim-telescope/telescope.nvim")

@@ -1,7 +1,13 @@
-local g = vim.g
-g.gruvbox_material_foreground = "original"
-g.gruvbox_material_background = "hard"
-g.gruvbox_material_better_performance = 1
-g.gruvbox_material_enable_italic = 1
+require("no-clown-fiesta").setup({
+	transparent = false,
+	styles = {
+		comments = { italic = true },
+		keywords = { italic = true },
+		functions = { italic = true },
+		variables = { italic = true },
+		type = { bold = false },
+		lsp = { underline = true },
+	},
+})
 
-vim.cmd("colorscheme gruvbox-material")
+vim.cmd("colorscheme no-clown-fiesta")

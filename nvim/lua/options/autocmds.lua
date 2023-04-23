@@ -16,3 +16,6 @@ augroup CLNRSet
     autocmd! ColorScheme * hi CursorLineNR guifg=NONE guibg=NONE
 augroup END
 ]])
+
+-- disable autocomment
+cmd("autocmd BufEnter * set fo-=c fo-=r fo-=o")

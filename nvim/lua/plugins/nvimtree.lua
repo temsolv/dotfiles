@@ -13,5 +13,4 @@ require("nvim-tree").setup({
 	},
 })
 
-local map = vim.keymap.set
-map("n", "<A-f>", ":NvimTreeToggle<CR>", { silent = true })
+map("n", "<A-f>", ":NvimTreeToggle<CR>")
