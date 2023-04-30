@@ -10,4 +10,4 @@ require("no-clown-fiesta").setup({
 	},
 })
 
-vim.cmd("colorscheme no-clown-fiesta")
+vim.cmd("colorscheme gruvbox-material")

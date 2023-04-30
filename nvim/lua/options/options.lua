@@ -4,7 +4,6 @@ local o = vim.o
 o.termguicolors = true
 o.showmode = false
 o.swapfile = false
-o.undofile = true
 o.mouse = false
 
 -- tabs

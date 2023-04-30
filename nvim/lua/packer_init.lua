@@ -9,13 +9,15 @@ return require("packer").startup(function(use)
 	use("nvim-tree/nvim-web-devicons")
 	use("nvim-lualine/lualine.nvim")
 	use("aktersnurra/no-clown-fiesta.nvim")
+	use("sainnhe/gruvbox-material")
 
 	-- movement
 	use("nvim-telescope/telescope.nvim")
 	use("nvim-tree/nvim-tree.lua")
 	use("akinsho/toggleterm.nvim")
-	use("ggandor/leap.nvim")
 	use("akinsho/bufferline.nvim")
+	use("ggandor/leap.nvim")
+	use("abecodes/tabout.nvim")
 
 	-- primary
 	use("VonHeikemen/lsp-zero.nvim")
