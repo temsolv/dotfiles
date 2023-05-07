@@ -5,9 +5,8 @@ require("no-clown-fiesta").setup({
 		keywords = { italic = true },
 		functions = { italic = true },
 		variables = { italic = true },
-		type = { bold = false },
+		type = { bold = false, italic = true },
 		lsp = { underline = true },
 	},
 })
-
-vim.cmd("colorscheme gruvbox-material")
+vim.cmd("colorscheme no-clown-fiesta")

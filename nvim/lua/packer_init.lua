@@ -9,7 +9,6 @@ return require("packer").startup(function(use)
 	use("nvim-tree/nvim-web-devicons")
 	use("nvim-lualine/lualine.nvim")
 	use("aktersnurra/no-clown-fiesta.nvim")
-	use("sainnhe/gruvbox-material")
 
 	-- movement
 	use("nvim-telescope/telescope.nvim")
