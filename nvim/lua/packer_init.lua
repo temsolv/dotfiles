@@ -7,7 +7,7 @@ return require("packer").startup(function(use)
 	use("nvim-treesitter/nvim-treesitter")
 	use("nvim-tree/nvim-web-devicons")
 	use("nvim-lualine/lualine.nvim")
-	use("aktersnurra/no-clown-fiesta.nvim")
+	use("ellisonleao/gruvbox.nvim")
 
 	-- movement
 	use("nvim-telescope/telescope.nvim")
@@ -15,7 +15,6 @@ return require("packer").startup(function(use)
 	use("akinsho/toggleterm.nvim")
 	use("akinsho/bufferline.nvim")
 	use("ggandor/leap.nvim")
-	use("abecodes/tabout.nvim")
 
 	-- primary
 	use("VonHeikemen/lsp-zero.nvim")
@@ -26,12 +25,10 @@ return require("packer").startup(function(use)
 	use("saadparwaiz1/cmp_luasnip")
 	use("L3MON4D3/LuaSnip")
 
-	use("jose-elias-alvarez/null-ls.nvim")
 	use("hrsh7th/cmp-nvim-lsp")
 	use("hrsh7th/nvim-cmp")
 
 	-- editing
 	use("windwp/nvim-autopairs")
 	use("numToStr/Comment.nvim")
-	use("iamcco/markdown-preview.nvim")
 end)

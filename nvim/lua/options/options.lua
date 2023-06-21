@@ -1,7 +1,6 @@
 local o = vim.o
 
 -- main
-o.termguicolors = true
 o.showmode = false
 o.swapfile = false
 o.mouse = false
