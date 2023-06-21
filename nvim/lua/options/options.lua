@@ -1,7 +1,6 @@
 local o = vim.o
 
--- main
-o.showmode = false
+-- other 
 o.swapfile = false
 o.mouse = false
 
