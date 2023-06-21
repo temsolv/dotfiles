@@ -1,6 +1,5 @@
 local o = vim.o
 
-
 -- tabulation
 o.shiftwidth = 4
 o.tabstop = 4
