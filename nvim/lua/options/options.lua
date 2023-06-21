@@ -1,6 +1,7 @@
 local o = vim.o
 
-vim.cmd("colorscheme habamax")
+-- theme
+vim.cmd("colorscheme gruvbox")
 
 -- tabulation
 o.shiftwidth = 4
@@ -10,7 +11,7 @@ o.expandtab = true
 
 -- numbers
 o.number = true
-o.relativenumber = true
+o.relativenumber = true 
 o.scrolloff = 5
 
 -- view
@@ -19,9 +20,8 @@ o.signcolumn = "no"
 o.fillchars = "eob: "
 
 -- other
-o.swapfile = false -- off swapfile
-o.mouse = false -- off mouse
-o.showmode = false -- hide default mode display
+o.swapfile = false
+o.mouse = false
 
--- off autocomment
-vim.cmd("autocmd BufEnter * set fo-=c fo-=r fo-=o")
+-- hide default mode display
+o.showmode = false 

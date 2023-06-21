@@ -1,3 +1,4 @@
+require("plugins/terminal")
 require("plugins/autopairs")
 require("plugins/comment")
 require("plugins/nvimtree")

@@ -17,12 +17,12 @@ require("lualine").setup({
 		},
 	},
 	sections = {
-		lualine_a = { "mode", "branch" },
+		lualine_a = {"branch"},
 		lualine_b = {},
-		lualine_c = { "filename" },
-		lualine_x = { "filetype" },
-		lualine_y = { "diagnostics" },
-		lualine_z = { "location" },
+		lualine_c = {"filename"},
+		lualine_x = {"filetype"},
+		lualine_y = {"diagnostics"},
+		lualine_z = {"location"},
 	},
 	inactive_sections = {
 		lualine_a = {},
