@@ -1,5 +1,4 @@
 local cmp = require("cmp")
-local cmp_action = require("lsp-zero").cmp_action()
 
 cmp.setup({
 	snippet = {
@@ -14,15 +13,8 @@ cmp.setup({
 		}),
 		["<Tab>"] = cmp.mapping.select_next_item(),
 		["<S-Tab>"] = cmp.mapping.select_prev_item(),
-		["<S-e>"] = cmp.mapping.abort(),
-		["<S-f>"] = cmp_action.luasnip_jump_forward(),
-		["<S-d>"] = cmp_action.luasnip_jump_backward(),
 	}),
 	sources = {
 		{ name = "nvim_lsp" },
-		{ name = "luasnip" },
-	},
-	view = {
-		entries = "custom",
 	},
 })

@@ -5,8 +5,3 @@ local lspconfig = require("lspconfig")
 lspconfig.pyright.setup({
 	capabilities = capabilities,
 })
-
--- lua
-lspconfig.lua_ls.setup({
-	capabilities = capabilities,
-})
