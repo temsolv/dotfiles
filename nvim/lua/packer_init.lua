@@ -4,7 +4,6 @@ return require("packer").startup(function(use)
 	use("wbthomason/packer.nvim")
 
 	-- appearance
-	use("lukas-reineke/indent-blankline.nvim")
 	use("nvim-treesitter/nvim-treesitter")
 	use("nvim-tree/nvim-web-devicons")
 	use("nvim-lualine/lualine.nvim")
