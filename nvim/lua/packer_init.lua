@@ -4,10 +4,8 @@ return require("packer").startup(function(use)
 	use("wbthomason/packer.nvim")
 
 	-- appearance
-	use("nvim-treesitter/nvim-treesitter")
 	use("nvim-tree/nvim-web-devicons")
 	use("nvim-lualine/lualine.nvim")
-    use("folke/tokyonight.nvim")
 
 	-- movement
 	use("nvim-telescope/telescope.nvim")
