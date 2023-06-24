@@ -1,7 +1,0 @@
-require("plugins/terminal")
-require("plugins/autopairs")
-require("plugins/comment")
-require("plugins/nvimtree")
-require("plugins/telescope")
-require("plugins/bufferline")
-require("plugins/lualine")
